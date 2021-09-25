@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+  }
+  body{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+   padding-bottom: 9.5%;
+    
+  }
+ 
+  .wrapper{
+    margin-top:75px;
+    width: 300px;
+    padding: 30px 30px 40px 30px;
+    background:white;
+   
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 35%;
+    margin-bottom: 2%;
+  }
+  .wrapper h2{
+    font-size: 30px;
+    font-weight: 800;
+    color:green;
+   
+  }
+  .wrapper form{
+    margin: 35px 0;
+  }
+  form .field{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  form .field .input-area{
+    height: 50px;
+    width: 100%;
+    position: relative;
+  }
+  form input{
+    width: 70%;
+    height: 100%;
+    outline:none;
+    padding: 0 45px;
+    font-size: 18px;
+    color:black;
+    background: #eeeeee;
+    border: 1px solid black;
+    border-radius: 15px; 
+  }
+  
+  
+  form .field input:focus,
+  form .field.valid input{
+    border: 1px solid black;
+  }
+  form .field.error input{
+    border: 1px solid red;
+  }
+  .field .input-area i{
+    position: absolute;
+    top: 50%;
+    font-size: 18px;
+    pointer-events: none;
+    transform: translateY(-50%);
+  }
+  .input-area .icon{
+    left: 15px;
+    color: black;
+    transition: color 0.2s ease;
+  }
+  .input-area .error-icon{
+    right: 15px;
+    color: red;
+  }
+  form input:focus ~ .icon,
+  form .field.valid .icon{
+    color: black;
+  }
+  form .field.error input:focus ~ .icon{
+    color:black;
+  }
+  form input::placeholder{
+    color: black;
+    font-size: 17px;
+  }
+  form .field .error-txt{
+    color: red;
+    text-align: left;
+    margin-top: 5px;
+    font-size:15px;
+  }
+  form .field .error{
+    display: none;
+  }
+  form .field.error .error{
+    display: block;
+  }
+  form .pass-txt{
+    text-align: right;
+    margin-top: -5px;
+  }
+  
+  
+  .btn{
+      width:70%;
+      height: 50px;
+      font-size: 20px;
+      font-weight:bold;
+      color: black;
+      margin-top: 30px;
+      border-radius: 35px;
+      background: green;   
+      border: 1px solid;
+  }
+  
+  .rslt{
+    margin-left: 3%;
+    margin-top: 20px;
+  }
+  h3{
+    margin-left: 2%;
+    margin-top: 10%;
+  }
+  .navbar-nav{
+    
+    font-weight:600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  
+  .hd{
+    margin-top: 1%;
+  }
+  
